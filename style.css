@@ -3,7 +3,7 @@
 :root {
     --main-color: #201b2c;
     --card-login-color: #2f2841;
-    --textfied-placeholder: #fff;
+    --textfied-placeholder: #77ffc0;
     --left-login-color: #77ffc0;
 }
 
@@ -84,7 +84,7 @@ body {
 
 .textfield>input {
     width: 100%;
-    border: none;
+    border: 1px solid #00ff88;
     border-radius: 0.6rem;
     padding: 0.9rem;
     background: #514869;
@@ -94,6 +94,7 @@ body {
     font-size: 12pt;
     box-shadow: 0 0.6rem 2.5rem #00000056;
     box-sizing: border-box;
+    caret-color: #00ff88;
 }
 
 .textfield>label {
@@ -104,7 +105,7 @@ body {
 }
 
 .textfield>input::placeholder {
-    color: var(--textfied-placeholder)
+    color: #fff
 }
 
 .btn-login {
@@ -125,7 +126,7 @@ body {
 }
 
 .btn-login:hover {
-    width: 70%;
+    width: 40%;
 }
 
 @media only screen and (max-width: 950px) {
