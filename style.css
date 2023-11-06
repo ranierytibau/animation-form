@@ -117,7 +117,7 @@ body {
     outline: none;
     text-transform: uppercase;
     font-weight: 800;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.5rem;
     color: #2b134b;
     background: #00ff88;
     cursor: pointer;
